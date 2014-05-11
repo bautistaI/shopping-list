@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Thinkful - ShopiMaster</title>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="javascript/modernizr.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- [ X ] Users should be able to enter items they need to purchase -->
+<!-- [ X ] Users should be able to check and uncheck items on the list (you don’t necessarily need to use checkboxes for this, but  there should be a way of visually distinguishing purchased and unpurchased items). -->
+<!-- [ X ]Users should also be able to permanently remove items from the list.  -->
+
+<div class="wrapper">
+	<div class="logo">
+		<img src="images/logo.png" width="218" heigth="175" alt="market">
+		<h1>Welcome to ShopiMaster!</h1>
+	</div>
+	<div class="enter-items-form">
+		<div id="enter-item">
+			<input type="text" name="item-description" placeholder="hit enter or click the button to add products to the list" required>
+			<button type="submit" id="add-item">ADD</button>
+		</div>
+		
+		<div class="display-items">
+			<ul>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script src="javascript/app.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>	
+</body>
+</html>
